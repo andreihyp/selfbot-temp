@@ -9,5 +9,5 @@ async def on_ready():
 @client.event 
 async def on_message(message): 
     if message.content.startswith('!hi'): 
-        await message.channel.send('# hiiii) 
+        await message.channel.send('# hiiii)'
 client.run(token, bot=False) 
